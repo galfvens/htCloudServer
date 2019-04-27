@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="695e20ce-58d1-4f81-9fc8-ebfc4d2fc4f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/testModel01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model.html" beforeDir="false" afterPath="$PROJECT_DIR$/model.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/City.mtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/City.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/City.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/fish-2.mtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/fish-2.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/fish_texture.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,10 +20,23 @@
       <file leaf-file-name="model.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="147" column="36" lean-forward="true" selection-start-line="147" selection-start-column="36" selection-end-line="147" selection-end-column="36" />
+            <state relative-caret-position="120">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="water.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/water.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="xneg.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/xneg.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -68,17 +74,16 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="754" />
-    <option name="y" value="182" />
+    <option name="x" value="571" />
+    <option name="y" value="185" />
     <option name="width" value="1790" />
-    <option name="height" value="1000" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,6 +95,11 @@
               <item name="htCloudServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="htCloudServer" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htCloudServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htCloudServer" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="htCloudServer" type="b2602c69:ProjectViewProjectNode" />
@@ -116,6 +126,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,6 +135,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -182,14 +194,18 @@
       <workItem from="1556350735329" duration="1373000" />
       <workItem from="1556352644804" duration="1502000" />
       <workItem from="1556354461154" duration="879000" />
+      <workItem from="1556357694125" duration="1550000" />
+      <workItem from="1556359547746" duration="1786000" />
+      <workItem from="1556361358519" duration="481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20220000" />
+    <option name="totallyTimeSpent" value="24037000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="754" y="183" width="1790" height="1000" extended-state="0" />
+    <frame x="517" y="329" width="1790" height="1036" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19553073" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -217,6 +233,36 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="153" column="44" selection-start-line="153" selection-start-column="39" selection-end-line="153" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2205">
+          <caret line="147" column="36" lean-forward="true" selection-start-line="147" selection-start-column="36" selection-end-line="147" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2850">
@@ -406,10 +452,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/earth.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/earth-sphere.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/water-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/xneg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/water.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/model.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="147" column="36" lean-forward="true" selection-start-line="147" selection-start-column="36" selection-end-line="147" selection-end-column="36" />
+        <state relative-caret-position="120">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
