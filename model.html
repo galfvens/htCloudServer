@@ -4,8 +4,9 @@
 	<title>Hello, world!</title>
 	<!-- include three.js library -->
 	<script src='js/three.js'></script>
-	<script src='js/OBJLoader.js'></script>
 	<script src='js/MTLLoader.js'></script>
+	<script src='js/OBJLoader.js'></script>
+
 	<!-- include jsartookit -->
 	<script src="jsartoolkit5/artoolkit.min.js"></script>
 	<script src="jsartoolkit5/artoolkit.api.js"></script>
@@ -40,8 +41,26 @@ function initialize()
 {
 	scene = new THREE.Scene();
 
-	let ambientLight = new THREE.AmbientLight( 0xcccccc, 1.0 );
+	let ambientLight = new THREE.AmbientLight( "#FFFFFF", 2.0 );
 	scene.add( ambientLight );
+    directionalLight = new THREE.DirectionalLight("#ffffff");
+    directionalLight.position.set(40, 60, 10);
+
+    directionalLight.shadow.camera.near = 1; //产生阴影的最近距离
+    directionalLight.shadow.camera.far = 400; //产生阴影的最远距离
+    directionalLight.shadow.camera.left = -50; //产生阴影距离位置的最左边位置
+    directionalLight.shadow.camera.right = 50; //最右边
+    directionalLight.shadow.camera.top = 50; //最上边
+    directionalLight.shadow.camera.bottom = -50; //最下面
+
+    //这两个值决定生成阴影密度 默认512
+    directionalLight.shadow.mapSize.height = 1024;
+    directionalLight.shadow.mapSize.width = 1024;
+
+    //告诉平行光需要开启阴影投射
+    directionalLight.castShadow = true;
+
+    //scene.add(directionalLight);
 				
 	camera = new THREE.Camera();
 	scene.add(camera);
@@ -50,8 +69,8 @@ function initialize()
 		antialias : true,
 		alpha: true
 	});
-	renderer.setClearColor(new THREE.Color('lightgrey'), 0)
-	renderer.setSize( 640, 480 );
+	//renderer.setClearColor(new THREE.Color('lightgrey'), 0)
+	renderer.setSize(2048, 1536 );
 	renderer.domElement.style.position = 'absolute'
 	renderer.domElement.style.top = '0px'
 	renderer.domElement.style.left = '0px'
@@ -60,7 +79,14 @@ function initialize()
 	clock = new THREE.Clock();
 	deltaTime = 0;
 	totalTime = 0;
-	
+	/*
+    renderer = new THREE.WebGLRenderer({antialias: true});
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    //告诉渲染器需要阴影效果
+    renderer.shadowMap.enabled = true;
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap; // 默认的是，没有设置的这个清晰 THREE.PCFShadowMap
+    document.body.appendChild(renderer.domElement);
+    */
 	////////////////////////////////////////////////////////////
 	// setup arToolkitSource
 	////////////////////////////////////////////////////////////
@@ -111,35 +137,61 @@ function initialize()
 	markerRoot1 = new THREE.Group();
 	scene.add(markerRoot1);
 	let markerControls1 = new THREEx.ArMarkerControls(arToolkitContext, markerRoot1, {
-		type: 'pattern', patternUrl: "data/hiro.patt",
+		type: 'pattern', patternUrl: "data/model5.patt",
 	})
 
-	let geometry1 = new THREE.PlaneBufferGeometry(1,1, 4,4);
-	let loader = new THREE.TextureLoader();
+	//let geometry1 = new THREE.PlaneBufferGeometry(1,1, 4,4);
+	//let loader = new THREE.TextureLoader();
 	// let texture = loader.load( 'images/earth.jpg', render );
-	let material1 = new THREE.MeshBasicMaterial( { color: 0x0000ff, opacity: 0.5 } );
-	mesh1 = new THREE.Mesh( geometry1, material1 );
-	mesh1.rotation.x = -Math.PI/2;
-	markerRoot1.add( mesh1 );
+	//let material1 = new THREE.MeshBasicMaterial( { color: 0x0000ff, opacity: 0.5 } );
+	//mesh1 = new THREE.Mesh( geometry1, material1 );
+	//mesh1.rotation.x = -Math.PI/2;
+	//markerRoot1.add( mesh1 );
 	
 	function onProgress(xhr) { console.log( (xhr.loaded / xhr.total * 100) + '% loaded' ); }
 	function onError(xhr) { console.log( 'An error happened' ); }
-	
+
+
 	new THREE.MTLLoader()
 		.setPath( 'models/' )
-		.load( 'City.mtl', function ( materials ) {
+		.load( 'm.mtl', function ( materials ) {
 			materials.preload();
 			new THREE.OBJLoader()
 				.setMaterials( materials )
 				.setPath( 'models/' )
-				.load( 'City.obj', function ( group ) {
-					mesh0 = group.children[0];
-					mesh0.material.side = THREE.DoubleSide;
-					//mesh0.position.y = 0;
-					mesh0.scale.set(0.025,0.025,0.025);
+				.load( 'm.obj', function ( group ) {
+					//mesh0 = group.children[0];
+                    mesh0 = group;
+					//mesh0.material.side = THREE.DoubleSide;
+					//mesh0.position.y = 1;
+					mesh0.scale.set(0.0050,0.0050,0.005);
+					mesh0.rotation.x=300;
 					markerRoot1.add(mesh0);
 				}, onProgress, onError );
 		});
+	/*
+    var jsonLoader = new THREE.JSONLoader();
+    jsonLoader.load("models/model-2.json", addModelToScene);
+
+    function addModelToScene(geometry, materials) {
+        var material = new THREE.MeshFaceMaterial(materials);
+        var object = new THREE.Mesh(geometry, material);
+        object.scale.set(0.01, 0.01, 0.01);
+        scene.add(object);
+    }
+    */
+	/*
+    let loader = new THREE.ObjectLoader();
+
+    loader.load("models/model-2.json", function (group) {
+        console.log(group);
+        mesh3=group;
+        mesh3.rotation.x=300;
+        mesh3.scale.set(0.00250,0.00250,0.00250);
+        markerRoot1.add(mesh3);
+    });
+*/
+
 }
 
 
