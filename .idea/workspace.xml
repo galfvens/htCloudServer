@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="695e20ce-58d1-4f81-9fc8-ebfc4d2fc4f0" name="Default" comment="" />
+    <list default="true" id="695e20ce-58d1-4f81-9fc8-ebfc4d2fc4f0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/model.html" beforeDir="false" afterPath="$PROJECT_DIR$/model.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,8 +19,8 @@
       <file leaf-file-name="model.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="138" column="7" lean-forward="true" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
+            <state relative-caret-position="270">
+              <caret line="155" column="34" lean-forward="true" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -53,8 +55,8 @@
       <file leaf-file-name="model5.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="175" column="55" lean-forward="true" selection-start-line="175" selection-end-line="176" />
+            <state relative-caret-position="2625">
+              <caret line="175" column="55" selection-start-line="175" selection-end-line="176" />
             </state>
           </provider>
         </entry>
@@ -161,7 +163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,6 +211,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,14 +286,16 @@
       <workItem from="1557062213860" duration="863000" />
       <workItem from="1557064188486" duration="603000" />
       <workItem from="1557066267663" duration="821000" />
+      <workItem from="1557230919670" duration="315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29136000" />
+    <option name="totallyTimeSpent" value="29451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="571" y="185" width="1790" height="1036" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19553073" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -664,15 +668,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="175" column="55" lean-forward="true" selection-start-line="175" selection-end-line="176" />
+        <state relative-caret-position="2625">
+          <caret line="175" column="55" selection-start-line="175" selection-end-line="176" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="138" column="7" lean-forward="true" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
+        <state relative-caret-position="270">
+          <caret line="155" column="34" lean-forward="true" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
         </state>
       </provider>
     </entry>
