@@ -110,8 +110,8 @@ newmtl 18
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka maps\18.jpg
-	map_Kd maps\18.jpg
+	map_Ka maps\18.png
+	map_Kd maps\18.png
 
 newmtl 09
 	Ns 10.0000

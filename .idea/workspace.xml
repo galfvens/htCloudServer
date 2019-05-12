@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="695e20ce-58d1-4f81-9fc8-ebfc4d2fc4f0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/model3.html" beforeDir="false" afterPath="$PROJECT_DIR$/model3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/m.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/models/m.mtl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +20,7 @@
       <file leaf-file-name="model.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="2625">
               <caret line="175" column="52" selection-start-line="175" selection-end-line="176" />
             </state>
           </provider>
@@ -28,8 +29,8 @@
       <file leaf-file-name="model5.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="157" column="4" lean-forward="true" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
+            <state relative-caret-position="478">
+              <caret line="176" column="45" lean-forward="true" selection-start-line="176" selection-start-column="45" selection-end-line="176" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -37,7 +38,7 @@
       <file leaf-file-name="model4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="742">
+            <state relative-caret-position="2580">
               <caret line="172" column="34" lean-forward="true" selection-start-line="172" selection-start-column="34" selection-end-line="172" selection-end-column="34" />
             </state>
           </provider>
@@ -46,7 +47,7 @@
       <file leaf-file-name="model3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="818">
+            <state relative-caret-position="2640">
               <caret line="176" column="22" selection-start-line="176" selection-start-column="22" selection-end-line="176" selection-end-column="22" />
             </state>
           </provider>
@@ -55,7 +56,7 @@
       <file leaf-file-name="model2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
+            <state relative-caret-position="2580">
               <caret line="172" column="34" lean-forward="true" selection-start-line="172" selection-start-column="34" selection-end-line="172" selection-end-column="34" />
             </state>
           </provider>
@@ -138,8 +139,8 @@
         <option value="$PROJECT_DIR$/model.html" />
         <option value="$PROJECT_DIR$/model2.html" />
         <option value="$PROJECT_DIR$/model4.html" />
-        <option value="$PROJECT_DIR$/model5.html" />
         <option value="$PROJECT_DIR$/model3.html" />
+        <option value="$PROJECT_DIR$/model5.html" />
       </list>
     </option>
   </component>
@@ -154,7 +155,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="571" />
-    <option name="y" value="185" />
+    <option name="y" value="184" />
     <option name="width" value="1790" />
     <option name="height" value="1036" />
   </component>
@@ -163,18 +164,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="htCloudServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="htCloudServer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="htCloudServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htCloudServer" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="htCloudServer" type="b2602c69:ProjectViewProjectNode" />
@@ -212,6 +207,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,15 +285,17 @@
       <workItem from="1557230919670" duration="1598000" />
       <workItem from="1557232802490" duration="1389000" />
       <workItem from="1557412859277" duration="667000" />
-      <workItem from="1557646172705" duration="394000" />
+      <workItem from="1557646172705" duration="1188000" />
+      <workItem from="1557662941117" duration="630000" />
+      <workItem from="1557666322912" duration="601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33184000" />
+    <option name="totallyTimeSpent" value="35209000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="571" y="185" width="1790" height="1036" extended-state="0" />
+    <frame x="571" y="184" width="1790" height="1036" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19553073" />
@@ -650,36 +648,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="2625">
           <caret line="175" column="52" selection-start-line="175" selection-end-line="176" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
+        <state relative-caret-position="2580">
           <caret line="172" column="34" lean-forward="true" selection-start-line="172" selection-start-column="34" selection-end-line="172" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
+        <state relative-caret-position="2640">
           <caret line="176" column="22" selection-start-line="176" selection-start-column="22" selection-end-line="176" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
+        <state relative-caret-position="2580">
           <caret line="172" column="34" lean-forward="true" selection-start-line="172" selection-start-column="34" selection-end-line="172" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="157" column="4" lean-forward="true" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
+        <state relative-caret-position="478">
+          <caret line="176" column="45" lean-forward="true" selection-start-line="176" selection-start-column="45" selection-end-line="176" selection-end-column="45" />
         </state>
       </provider>
     </entry>
