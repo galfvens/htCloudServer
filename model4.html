@@ -50,7 +50,7 @@ function initialize()
 {
 	scene = new THREE.Scene();
 
-	let ambientLight = new THREE.AmbientLight( "#FFFFFF", 2.0 );
+	let ambientLight = new THREE.AmbientLight( "#FFFFFF", 1.4 );
 	scene.add( ambientLight );
     directionalLight = new THREE.DirectionalLight("#ffffff");
     directionalLight.position.set(40, 60, 10);
@@ -173,7 +173,7 @@ function initialize()
                     mesh0 = group;
 					//mesh0.material.side = THREE.DoubleSide;
 					//mesh0.position.y = 1;
-                    mesh0.scale.set(0.013,0.013,0.013);
+                    mesh0.scale.set(0.015,0.015,0.015);
                     //mesh0.rotation.x=-51.4;
 					//mesh0.rotation.x=300;
 					markerRoot1.add(mesh0);
